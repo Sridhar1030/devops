@@ -7,7 +7,7 @@ TO Write pipeline script:
 
 
 
-pipeline{ agent any   
+    pipeline{ agent any   
     stages{
         stage('Complie'){
             steps{
@@ -25,7 +25,8 @@ pipeline{ agent any
             }
         }
         
-    }}
+        }
+        }
 
 
 
