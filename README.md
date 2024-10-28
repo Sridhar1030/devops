@@ -6,9 +6,8 @@ https://github.com/anujdevopslearn/MavenBuild
 TO Write pipeline script:
 
 
-{//remove this
-pipeline{
-    agent any   
+
+pipeline{ agent any   
     stages{
         stage('Complie'){
             steps{
@@ -26,10 +25,9 @@ pipeline{
             }
         }
         
-    }
-}
+    }}
 
-}//removethis
+
 
 For Selenium project link :https://github.com/jglick/simple-maven-project-with-tests.git
 
