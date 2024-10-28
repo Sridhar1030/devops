@@ -27,7 +27,7 @@ pipeline{
     }
 }
 
-
+For Selenium project link :https://github.com/jglick/simple-maven-project-with-tests.git
 
 ---
 
