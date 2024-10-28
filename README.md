@@ -3,6 +3,31 @@ TO RUN MAVEN PROJECT GITHUB LINK:
 https://github.com/anujdevopslearn/MavenBuild
 
 
+TO Write pipeline script:
+pipeline{
+    agent any
+    
+    stages{
+        stage('Complie'){
+            steps{
+                echo"This is the compliation stage"
+            }
+        }
+        stage('Test'){
+            steps{
+                echo"this is testing stage"
+            }
+        }
+        stage('Deploy'){
+            steps{
+                echo"this is Deployment stage"
+            }
+        }
+        
+    }
+}
+
+
 
 ---
 
