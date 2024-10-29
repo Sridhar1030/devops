@@ -2,6 +2,7 @@
 
 https://drive.google.com/drive/folders/1j5RWVLbPet2hvNBCNcUVuA8SCVtjTUMG
 TO RUN MAVEN PROJECT GITHUB LINK:
+path :%MAVEN_HOME%\bin //add this is environmental variables path both user and system
 https://github.com/anujdevopslearn/MavenBuild
 
 
